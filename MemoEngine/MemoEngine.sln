@@ -11,6 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame_Zombii", "..\MonoG
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoEngineEditor", "..\MemoEngineEditor\MemoEngineEditor.csproj", "{CC276A49-4F95-4662-B2F8-CCA565C6EE20}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C97BC934-1A3D-441B-8692-7C8C9B1825F1} = {C97BC934-1A3D-441B-8692-7C8C9B1825F1}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -21,12 +21,13 @@ namespace MonoGame_Zombii
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            Setup.Init(Content, graphics);
+            Screen.resolution(800, 600);
         }
 
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            Setup.Init(Content, graphics);
 
             og = new OgmoLoader();
             og.xmlLoader("Test");
