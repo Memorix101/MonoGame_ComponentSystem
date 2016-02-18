@@ -35,7 +35,7 @@ namespace MonoGame_Zombii
 
             SpriteRenderer render = new SpriteRenderer();
             gameObject.AddComponent(render);
-            gameObject.GetComponent<SpriteRenderer>().Set(gameObject.GetComponent<Sprite>(), gameObject.GetComponent<Transform>());
+            gameObject.GetComponent<SpriteRenderer>().Set(gameObject.GetComponent<Sprite>());
 
         }
 

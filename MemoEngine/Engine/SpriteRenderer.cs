@@ -18,10 +18,11 @@ namespace MemoEngine
         }
         */
 
-        public void Set(Sprite sprite, Transform transform)
+        public void Set(Sprite sprite)
         {
+           
             _sprite = sprite;
-            _transform = transform;
+            _transform =  sprite.gameObject.GetComponent<Transform>();
         }
 
         public virtual void Draw(SpriteBatch spriteBatch)

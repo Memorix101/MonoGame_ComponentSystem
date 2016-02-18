@@ -19,20 +19,19 @@ namespace MemoEngine
             XmlTextReader reader = new XmlTextReader("Content/OgmoLevel/" + name +".oel");
             while (reader.Read())
             {
-                switch (reader.NodeType)
+                switch (reader.Name)
                 {
-                    case XmlNodeType.Element: // The node is an element.
+                    case "level": 
                         Console.Write("<" + reader.Name);
                         Console.WriteLine(">");
                         break;
-                    case XmlNodeType.Text: //Display the text in each element.
+                    case "LevelObjects": //Display the text in each element.
                         Console.WriteLine(reader.Value);
                         break;
-                    case XmlNodeType.EndElement: //Display the end of the element.
-                        Console.Write("</" + reader.Name);
-                        Console.WriteLine(">");
+                    case "tile": //Display the end of the element.
+                        Console.WriteLine(reader.GetAttribute("x") + " - " + reader.GetAttribute("y"));
                         break;
-                }
+                }          
 
                 Console.ReadLine();
             }

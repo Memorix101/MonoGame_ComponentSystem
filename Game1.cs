@@ -15,6 +15,8 @@ namespace MonoGame_Zombii
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        OgmoLoader og;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -25,6 +27,9 @@ namespace MonoGame_Zombii
         {
             // TODO: Add your initialization logic here
             Setup.Init(Content, graphics);
+
+            og = new OgmoLoader();
+            og.xmlLoader("Test");
 
             SceneManager.LoadScene(new TestScene());
 
