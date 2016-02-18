@@ -7,7 +7,7 @@ namespace MonoGame_Zombii.Engine
 {
      class Scene
     {
-       public List<GameObject> _GO = new List<GameObject>();
+       private List<GameObject> _GO = new List<GameObject>();
        public static List<GameObject> _AddedGO = new List<GameObject>();
        public static List<GameObject> _RemoveGO = new List<GameObject>();
 

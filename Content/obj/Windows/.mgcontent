@@ -4,10 +4,10 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>E:/Freak Mind Games/Projects 2016/MonoGame_Zombii/MonoGame_Zombii/Content/Sprites/2ZombieSpriteSheet.png</File>
-    <File>E:/Freak Mind Games/Projects 2016/MonoGame_Zombii/MonoGame_Zombii/Content/Sprites/MainGuySpriteSheet_0.png</File>
-    <File>E:/Freak Mind Games/Projects 2016/MonoGame_Zombii/MonoGame_Zombii/Content/Sprites/plant repack_2.png</File>
-    <File>E:/Freak Mind Games/Projects 2016/MonoGame_Zombii/MonoGame_Zombii/Content/Sprites/plowed_soil.png</File>
-    <File>E:/Freak Mind Games/Projects 2016/MonoGame_Zombii/MonoGame_Zombii/Content/Sprites/tomatoes01.png</File>
+    <File>C:/Users/Jan-Eric/Documents/GitHub/MonoGame_ComponentSystem/Content/Sprites/2ZombieSpriteSheet.png</File>
+    <File>C:/Users/Jan-Eric/Documents/GitHub/MonoGame_ComponentSystem/Content/Sprites/MainGuySpriteSheet_0.png</File>
+    <File>C:/Users/Jan-Eric/Documents/GitHub/MonoGame_ComponentSystem/Content/Sprites/plant repack_2.png</File>
+    <File>C:/Users/Jan-Eric/Documents/GitHub/MonoGame_ComponentSystem/Content/Sprites/plowed_soil.png</File>
+    <File>C:/Users/Jan-Eric/Documents/GitHub/MonoGame_ComponentSystem/Content/Sprites/tomatoes01.png</File>
   </SourceFiles>
 </SourceFileCollection>

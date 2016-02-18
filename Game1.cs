@@ -18,7 +18,7 @@ namespace MonoGame_Zombii
         public static GraphicsDeviceManager graphics { get; private set; }
         SpriteBatch spriteBatch;
 
-        TestScene _scene;
+        //  TestScene _scene;
 
         public Game1()
         {
@@ -30,7 +30,7 @@ namespace MonoGame_Zombii
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            _scene = new TestScene();
+            SceneManager.LoadScene(new TestScene());
 
             base.Initialize();
         }
@@ -53,7 +53,7 @@ namespace MonoGame_Zombii
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            _scene.Update(gameTime);
+            SceneManager.Update(gameTime);
 
             base.Update(gameTime);
         }
@@ -63,7 +63,7 @@ namespace MonoGame_Zombii
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             spriteBatch.Begin(SpriteSortMode.Deferred, null, SamplerState.PointClamp, null, null, null, null);
-            _scene.Draw(spriteBatch);
+            SceneManager.Draw(spriteBatch);
             spriteBatch.End();
 
             spriteBatch.Begin();

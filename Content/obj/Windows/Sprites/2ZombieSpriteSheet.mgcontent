@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>E:/Freak Mind Games/Projects 2016/MonoGame_Zombii/MonoGame_Zombii/Content/Sprites/2ZombieSpriteSheet.png</SourceFile>
+  <SourceFile>C:/Users/Jan-Eric/Documents/GitHub/MonoGame_ComponentSystem/Content/Sprites/2ZombieSpriteSheet.png</SourceFile>
   <SourceTime>2012-12-24T03:23:22+01:00</SourceTime>
-  <DestFile>E:/Freak Mind Games/Projects 2016/MonoGame_Zombii/MonoGame_Zombii/Content/bin/Windows/Sprites/2ZombieSpriteSheet.xnb</DestFile>
-  <DestTime>2016-02-17T18:50:51.4931721+01:00</DestTime>
+  <DestFile>C:/Users/Jan-Eric/Documents/GitHub/MonoGame_ComponentSystem/Content/bin/Windows/Sprites/2ZombieSpriteSheet.xnb</DestFile>
+  <DestTime>2016-02-18T08:44:25.2062985+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2016-02-06T01:03:00+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

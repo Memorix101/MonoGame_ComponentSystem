@@ -51,6 +51,7 @@
     <Compile Include="Engine\GUI.cs" />
     <Compile Include="Engine\MonoGameExtension.cs" />
     <Compile Include="Engine\Scene.cs" />
+    <Compile Include="Engine\SceneManager.cs" />
     <Compile Include="Engine\Screen.cs" />
     <Compile Include="Engine\Sprite.cs" />
     <Compile Include="Engine\SpriteRenderer.cs" />
