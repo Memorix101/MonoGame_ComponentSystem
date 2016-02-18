@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>E:/Freak Mind Games/Projects 2016/MonoGame_Zombii/MonoGame_Zombii/Content/Sprites/2ZombieSpriteSheet.png</File>
+    <File>E:/Freak Mind Games/Projects 2016/MonoGame_Zombii/MonoGame_Zombii/Content/Sprites/MainGuySpriteSheet_0.png</File>
+    <File>E:/Freak Mind Games/Projects 2016/MonoGame_Zombii/MonoGame_Zombii/Content/Sprites/plant repack_2.png</File>
+    <File>E:/Freak Mind Games/Projects 2016/MonoGame_Zombii/MonoGame_Zombii/Content/Sprites/plowed_soil.png</File>
+    <File>E:/Freak Mind Games/Projects 2016/MonoGame_Zombii/MonoGame_Zombii/Content/Sprites/tomatoes01.png</File>
+  </SourceFiles>
+</SourceFileCollection>

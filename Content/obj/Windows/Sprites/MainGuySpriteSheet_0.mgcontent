@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>E:/Freak Mind Games/Projects 2016/MonoGame_Zombii/MonoGame_Zombii/Content/Sprites/MainGuySpriteSheet_0.png</SourceFile>
+  <SourceTime>2014-11-13T15:05:32.2625107+01:00</SourceTime>
+  <DestFile>E:/Freak Mind Games/Projects 2016/MonoGame_Zombii/MonoGame_Zombii/Content/bin/Windows/Sprites/MainGuySpriteSheet_0.xnb</DestFile>
+  <DestTime>2016-02-17T18:50:51.5330409+01:00</DestTime>
+  <Importer>TextureImporter</Importer>
+  <ImporterTime>2016-02-06T01:03:00+01:00</ImporterTime>
+  <Processor>TextureProcessor</Processor>
+  <ProcessorTime>2016-02-06T01:03:00+01:00</ProcessorTime>
+  <Parameters>
+    <Key>ColorKeyColor</Key>
+    <Value>255,0,255,255</Value>
+  </Parameters>
+  <Parameters>
+    <Key>ColorKeyEnabled</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>GenerateMipmaps</Key>
+    <Value>False</Value>
+  </Parameters>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>ResizeToPowerOfTwo</Key>
+    <Value>False</Value>
+  </Parameters>
+  <Parameters>
+    <Key>MakeSquare</Key>
+    <Value>False</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Color</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
