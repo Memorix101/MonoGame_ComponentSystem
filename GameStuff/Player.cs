@@ -65,6 +65,11 @@ namespace MonoGame_Zombii
                 GameObject.Instantiate(tomato);
             }
 
+            if (Keyboard.GetState().IsKeyDown(Keys.Q) && !keyState.IsKeyDown(Keys.Q))
+            {
+                SceneManager.LoadScene(new AnotherOne());
+            }
+
             keyState = Keyboard.GetState();
 
 

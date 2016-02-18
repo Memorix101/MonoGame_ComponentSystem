@@ -18,8 +18,6 @@ namespace MonoGame_Zombii
         public static GraphicsDeviceManager graphics { get; private set; }
         SpriteBatch spriteBatch;
 
-        //  TestScene _scene;
-
         public Game1()
         {
             content = Content;
@@ -34,7 +32,7 @@ namespace MonoGame_Zombii
 
             base.Initialize();
         }
-
+        
         protected override void LoadContent()
         {
             // Create a new SpriteBatch, which can be used to draw textures.

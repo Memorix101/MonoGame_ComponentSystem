@@ -56,7 +56,9 @@
     <Compile Include="Engine\Sprite.cs" />
     <Compile Include="Engine\SpriteRenderer.cs" />
     <Compile Include="Engine\Transform.cs" />
+    <Compile Include="Engine\Utilities\OgmoLoader.cs" />
     <Compile Include="Game1.cs" />
+    <Compile Include="GameStuff\AnotherOne.cs" />
     <Compile Include="GameStuff\Player.cs" />
     <Compile Include="GameStuff\TestScene.cs" />
     <Compile Include="GameStuff\Tomato.cs" />
@@ -78,6 +80,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="Content\OgmoLevel\Test.oel">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />

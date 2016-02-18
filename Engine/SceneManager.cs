@@ -8,26 +8,53 @@ namespace MonoGame_Zombii.Engine
     static class SceneManager
     {
 
-        static List<Scene> sceneList = new List<Scene>();
+        static List<Scene> loadedScene= new List<Scene>();
+        static List<Scene> deletedScene = new List<Scene>();
+        static List<Scene> activeScene = new List<Scene>();
+
+        static Scene lastScene;
 
         public static void LoadScene(Scene scene)
         {
-            if (sceneList != null)
-                sceneList.Clear();
+            if (lastScene != null)
+            {
+                deletedScene.Add(lastScene);
+            }
 
-            sceneList.Add(scene);
+            loadedScene.Add(scene);
+            
+            lastScene = scene;
         }
 
         public static void Update(GameTime gameTime)
         {
-            foreach (var s in sceneList)
+            
+            foreach (var s in loadedScene)
+            {
+                activeScene.Add(s);
+            }
+
+            loadedScene.Clear();
+
+            foreach (var s in deletedScene)
+            {
+                activeScene.Remove(s);
+            }
+
+            deletedScene.Clear();
+
+            foreach (var s in activeScene)
+            {
                 s.Update(gameTime);
+            }
         }
 
         public static void Draw(SpriteBatch spriteBatch)
         {
-            foreach (var s in sceneList)
+            foreach (var s in activeScene)
+            {
                 s.Draw(spriteBatch);
+            }
         }
     }
 }

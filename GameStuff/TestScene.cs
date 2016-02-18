@@ -7,12 +7,12 @@ namespace MonoGame_Zombii
 {
     class TestScene : Scene
     {
-        GameObject player = new GameObject();
+        GameObject tomato = new GameObject();
 
         public TestScene()
         {
-            player.AddComponent(new Player());
-            AddGameObject(player);
+            tomato.AddComponent(new Player());
+            AddGameObject(tomato);
         }
     }
 }

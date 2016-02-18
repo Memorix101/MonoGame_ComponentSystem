@@ -7,8 +7,7 @@ namespace MonoGame_Zombii.Engine
     class GameObject
     {
         List<GameObjectComponent> _goComponent = new List<GameObjectComponent>();
-
-
+        
         public T GetComponent<T>() where T : GameObjectComponent
         {
             foreach (GameObjectComponent goc in _goComponent)
