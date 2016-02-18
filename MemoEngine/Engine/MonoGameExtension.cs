@@ -5,7 +5,7 @@ using System.Text;
 
 using Microsoft.Xna.Framework;
 
-namespace MonoGame_Zombii.Engine
+namespace MemoEngine
 {
     public static class MonoGameExtension
     {

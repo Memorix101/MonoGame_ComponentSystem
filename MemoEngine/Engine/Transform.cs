@@ -2,9 +2,9 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace MonoGame_Zombii.Engine
+namespace MemoEngine
 {
-    class Transform : GameObjectComponent
+    public class Transform : GameObjectComponent
     {
 
         public Vector2 position = Vector2.Zero;

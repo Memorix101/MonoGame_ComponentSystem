@@ -2,9 +2,9 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace MonoGame_Zombii.Engine
+namespace MemoEngine
 {
-    class GameObject
+    public class GameObject
     {
         List<GameObjectComponent> _goComponent = new List<GameObjectComponent>();
         

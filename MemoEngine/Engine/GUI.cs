@@ -2,11 +2,10 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
 
-namespace MonoGame_Zombii.Engine
+namespace MemoEngine
 {
-    class GUI
+    public class GUI
     {
-
         SpriteFont font;
         string text;
         Vector2 position;
@@ -58,7 +57,7 @@ namespace MonoGame_Zombii.Engine
 
         public void Load(string path)
         {
-            font = Game1.content.Load<SpriteFont>(path);
+            font = Setup.ContentDevice.Load<SpriteFont>(path);
         }
 
         public virtual void Draw(SpriteBatch spriteBatch)

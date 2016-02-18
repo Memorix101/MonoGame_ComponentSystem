@@ -2,9 +2,9 @@
 using Microsoft.Xna.Framework;
 
 
-namespace MonoGame_Zombii.Engine
+namespace MemoEngine
 {
-    class RectCollider : GameObjectComponent
+    public class RectCollider : GameObjectComponent
     {
 
         Rectangle _rect;

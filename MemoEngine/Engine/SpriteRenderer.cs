@@ -1,11 +1,10 @@
 ﻿using System;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using MonoGame_Zombii.Engine;
 
-namespace MonoGame_Zombii.Engine
+namespace MemoEngine
 {
-    class SpriteRenderer : GameObjectComponent
+    public class SpriteRenderer : GameObjectComponent
     {
         private Sprite _sprite;
         private Transform _transform;

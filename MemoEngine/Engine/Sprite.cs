@@ -5,10 +5,11 @@ using System.Text;
 
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Content;
 
-namespace MonoGame_Zombii.Engine
+namespace MemoEngine
 {
-    class Sprite : GameObjectComponent
+    public class Sprite : GameObjectComponent
     {
         public Texture2D texture;
         public Vector2 origin = Vector2.Zero;
@@ -26,7 +27,7 @@ namespace MonoGame_Zombii.Engine
 
         public void Load(string path)
         {
-            texture = Game1.content.Load<Texture2D>(path);
+            texture = Setup.ContentDevice.Load<Texture2D>(path);
         }
 
     }

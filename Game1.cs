@@ -2,8 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Content;
-using MonoGame_Zombii.Engine;
-
+using MemoEngine;
 using System;
 
 namespace MonoGame_Zombii
@@ -13,14 +12,11 @@ namespace MonoGame_Zombii
     /// </summary>
     public class Game1 : Game
     {
-
-        public static ContentManager content { get; private set; }
-        public static GraphicsDeviceManager graphics { get; private set; }
+        GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
         public Game1()
         {
-            content = Content;
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
         }
@@ -28,6 +24,8 @@ namespace MonoGame_Zombii
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            Setup.Init(Content, graphics);
+
             SceneManager.LoadScene(new TestScene());
 
             base.Initialize();

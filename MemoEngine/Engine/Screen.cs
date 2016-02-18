@@ -1,17 +1,15 @@
 ﻿using Microsoft.Xna.Framework;
 
-namespace MonoGame_Zombii.Engine
+namespace MemoEngine
 {
-    class Screen
+    public class Screen
     {
-
-        static GraphicsDeviceManager graphics = Game1.graphics;
 
         public static int width
         {
             get
             {
-                return graphics.GraphicsDevice.Viewport.Width;
+                return Setup.graphics.GraphicsDevice.Viewport.Width;
             }
         }
 
@@ -19,7 +17,7 @@ namespace MonoGame_Zombii.Engine
         {
             get
             {
-                return graphics.GraphicsDevice.Viewport.Height;
+                return Setup.graphics.GraphicsDevice.Viewport.Height;
             }
         }
 
@@ -27,7 +25,7 @@ namespace MonoGame_Zombii.Engine
         {
             get
             {
-                return graphics.GraphicsDevice.Viewport.Bounds;
+                return Setup.graphics.GraphicsDevice.Viewport.Bounds;
             }
         }
 
@@ -35,15 +33,15 @@ namespace MonoGame_Zombii.Engine
         {
             set
             {
-                graphics.IsFullScreen = value;
+                Setup.graphics.IsFullScreen = value;
             }
 
         }
 
         public static void resolution(int width, int height)
         {
-            graphics.PreferredBackBufferHeight = height;
-            graphics.PreferredBackBufferWidth = width;
+            Setup.graphics.PreferredBackBufferHeight = height;
+            Setup.graphics.PreferredBackBufferWidth = width;
         }
        
             

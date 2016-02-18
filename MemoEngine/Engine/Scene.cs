@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace MonoGame_Zombii.Engine
+namespace MemoEngine
 {
-     class Scene
+    public class Scene
     {
        private List<GameObject> _GO = new List<GameObject>();
        public static List<GameObject> _AddedGO = new List<GameObject>();

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace MonoGame_Zombii.Engine
+namespace MemoEngine
 {
-    static class SceneManager
+    public static class SceneManager
     {
 
         static List<Scene> loadedScene= new List<Scene>();
