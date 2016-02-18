@@ -13,7 +13,6 @@ namespace MemoEngine
 {
     public class OgmoLoader
     {
-
         public void xmlLoader(string name)
         {
             XmlTextReader reader = new XmlTextReader("Content/OgmoLevel/" + name +".oel");
@@ -29,7 +28,10 @@ namespace MemoEngine
                         Console.WriteLine(reader.Value);
                         break;
                     case "tile": //Display the end of the element.
-                        Console.WriteLine(reader.GetAttribute("x") + " - " + reader.GetAttribute("y"));
+                        Console.WriteLine(reader.GetAttribute("x")  + " - " + reader.GetAttribute("y"));
+                        GameObject tile = new GameObject();
+                        tile.AddComponent(new Tile(float.Parse(reader.GetAttribute("x"))*32, float.Parse(reader.GetAttribute("y"))*32, int.Parse(reader.GetAttribute("tx")) * 32, int.Parse(reader.GetAttribute("ty"))*32));
+                        Scene._AddedGO.Add(tile);
                         break;
                 }          
 

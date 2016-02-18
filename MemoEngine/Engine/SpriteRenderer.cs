@@ -9,6 +9,7 @@ namespace MemoEngine
         private Sprite _sprite;
         private Transform _transform;
         public SpriteEffects flip = SpriteEffects.None;
+        public int layer = 0;
 
         /*
         public SpriteRenderer(GameObject go)
@@ -27,7 +28,7 @@ namespace MemoEngine
 
         public virtual void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(_sprite.texture, _transform.position, _sprite.rect, Color.White, 0f, Vector2.Zero, _sprite.scale, flip, _sprite.layerDepth);
+            spriteBatch.Draw(_sprite.texture, _transform.position, _sprite.rect, Color.White, 0f, Vector2.Zero, _sprite.scale, flip, 0);
         }
     }
 }

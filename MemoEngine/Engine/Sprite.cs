@@ -17,7 +17,7 @@ namespace MemoEngine
         public Rectangle sourceRect;
         public Color color = Color.White;
         public float rotation = 0f;
-        public float layerDepth = 0f;
+        private float layerDepth = 0f;
         public int scale = 1;
                 
         public Sprite()

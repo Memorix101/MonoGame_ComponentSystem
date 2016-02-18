@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
@@ -40,10 +41,18 @@ namespace MemoEngine
 
         public void Draw(SpriteBatch spriteBatch)
         {
+
+            foreach (GameObject go in _GO.OrderBy(t => t.GetComponent<SpriteRenderer>().layer))
+           {
+                go.GetComponent<SpriteRenderer>().Draw(spriteBatch);
+            }
+
+            /*
             foreach (GameObject go in _GO)
             {
                 go.GetComponent<SpriteRenderer>().Draw(spriteBatch);               
             }
+            */
         }
 
     }

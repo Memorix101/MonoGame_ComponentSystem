@@ -23,7 +23,6 @@ namespace MonoGame_Zombii
 
             gameObject.GetComponent<Sprite>().Load("Sprites/MainGuySpriteSheet_0");
             gameObject.GetComponent<Sprite>().scale = 2;
-            gameObject.GetComponent<Sprite>().layerDepth = 1f;
             gameObject.GetComponent<Sprite>().rect = new Rectangle(46, 0, 32, 36);
 
             Transform transform = new Transform();
@@ -36,6 +35,7 @@ namespace MonoGame_Zombii
 
             SpriteRenderer render = new SpriteRenderer();
             gameObject.AddComponent(render);
+            gameObject.GetComponent<SpriteRenderer>().layer = 1;
             gameObject.GetComponent<SpriteRenderer>().Set(gameObject.GetComponent<Sprite>());
         }
 

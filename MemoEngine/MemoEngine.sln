@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoEngine", "MemoEngine.csproj", "{C97BC934-1A3D-441B-8692-7C8C9B1825F1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoGame_Zombii", "..\MonoGame_Zombii.csproj", "{A7FC0121-F708-4B73-82B3-CD9F652907CE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C97BC934-1A3D-441B-8692-7C8C9B1825F1} = {C97BC934-1A3D-441B-8692-7C8C9B1825F1}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoEngineEditor", "..\MemoEngineEditor\MemoEngineEditor.csproj", "{CC276A49-4F95-4662-B2F8-CCA565C6EE20}"
 EndProject

@@ -53,6 +53,7 @@
     <Compile Include="Engine\Screen.cs" />
     <Compile Include="Engine\Sprite.cs" />
     <Compile Include="Engine\SpriteRenderer.cs" />
+    <Compile Include="Engine\Test\Tile.cs" />
     <Compile Include="Engine\Transform.cs" />
     <Compile Include="Engine\Utilities\OgmoLoader.cs" />
     <Compile Include="Setup.cs" />
