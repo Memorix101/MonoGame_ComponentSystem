@@ -38,8 +38,7 @@ namespace MonoGame_Zombii
             gameObject.AddComponent(transform);
             //  gameObject.GetComponent<Transform>().position = new Vector2(Screen.width / 2 - gameObject.GetComponent<Sprite>().rect.Width, Screen.height / 2 - gameObject.GetComponent<Sprite>().rect.Height);
             gameObject.GetComponent<Transform>().position = new Vector2(pos_X, pos_Y - 32 * (gameObject.GetComponent<Sprite>().scale - 1));
-
-
+            
             RectCollider collider = new RectCollider();
             gameObject.AddComponent(collider);
             gameObject.GetComponent<RectCollider>().Set(gameObject.GetComponent<Sprite>(), gameObject.GetComponent<Transform>());
