@@ -41,7 +41,7 @@ namespace MonoGame_Zombii
 
         public override void Update(GameTime gameTime)
         {
-            movex = gameObject.GetComponent<Transform>().position.X -= 25 * gameTime.DeltaTime();
+            movex = gameObject.GetComponent<Transform>().position.X -= 250 * gameTime.DeltaTime();
         }
     }
 }

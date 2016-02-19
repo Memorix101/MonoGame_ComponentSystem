@@ -477,7 +477,7 @@
     <tile x="24" y="18" tx="1" ty="4" />
   </LevelObjects>
   <Actor tileset="Player" exportMode="XMLCoords">
-    <tile x="13" y="10" tx="0" ty="0" />
+    <tile x="11" y="10" tx="0" ty="0" />
   </Actor>
   <Obstacle tileset="Blocks" exportMode="XMLCoords">
     <tile x="1" y="16" tx="1" ty="1" />
