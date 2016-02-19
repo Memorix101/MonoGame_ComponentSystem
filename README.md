@@ -14,3 +14,5 @@ How my Player class looks like:
 
 Ogmo Editor Support (http://www.ogmoeditor.com/)
 ![dfgdfgd](https://cloud.githubusercontent.com/assets/1466920/13152019/343ba538-d66d-11e5-854c-f84fa6ec963e.png)
+or with spawn ;)
+![adasdasdasda](https://cloud.githubusercontent.com/assets/1466920/13189155/02255c26-d756-11e5-8765-ee85d8203c7b.png)
