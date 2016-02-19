@@ -43,7 +43,7 @@ namespace MemoEngine
         {
 
             foreach (GameObject go in _GO.OrderBy(t => t.GetComponent<SpriteRenderer>().layer))
-           {
+            {
                 go.GetComponent<SpriteRenderer>().Draw(spriteBatch);
             }
 

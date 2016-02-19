@@ -10,10 +10,18 @@ namespace MonoGame_Zombii
     {
         float speed = 150f;
         KeyboardState keyState;
-        
-        public Player()
-        {          
- 
+
+        float pos_X;
+        float pos_Y;
+        int rect_X;
+        int rect_Y;
+
+        public Player(float x, float y, int rx, int ry)
+        {
+            pos_X = x;
+            pos_Y = y;
+            rect_X = rx;
+            rect_Y = ry;
         }
 
         public override void Init()
@@ -25,9 +33,13 @@ namespace MonoGame_Zombii
             gameObject.GetComponent<Sprite>().scale = 2;
             gameObject.GetComponent<Sprite>().rect = new Rectangle(46, 0, 32, 36);
 
+
+
             Transform transform = new Transform();
             gameObject.AddComponent(transform);
-            gameObject.GetComponent<Transform>().position = new Vector2(Screen.width / 2 - gameObject.GetComponent<Sprite>().rect.Width, Screen.height / 2 - gameObject.GetComponent<Sprite>().rect.Height);
+            //  gameObject.GetComponent<Transform>().position = new Vector2(Screen.width / 2 - gameObject.GetComponent<Sprite>().rect.Width, Screen.height / 2 - gameObject.GetComponent<Sprite>().rect.Height);
+            gameObject.GetComponent<Transform>().position = new Vector2(pos_X, pos_Y);
+
 
             RectCollider collider = new RectCollider();
             gameObject.AddComponent(collider);

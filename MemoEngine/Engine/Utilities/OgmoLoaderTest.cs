@@ -11,9 +11,11 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Content;
 using System.Xml.Linq;
 
+
+
 namespace MemoEngine
 {
-    public class OgmoLoader
+    public class OgmoLoaderTest
     {
 
         StringBuilder output = new StringBuilder();
@@ -50,7 +52,8 @@ namespace MemoEngine
                         block.AddComponent(new Block(float.Parse(t.Attribute("x").Value) * 32, float.Parse(t.Attribute("y").Value) * 32, int.Parse(t.Attribute("tx").Value) * 32, int.Parse(t.Attribute("ty").Value) * 32));
                         Scene._AddedGO.Add(block);
                     }
-                }                
+                }
+                             
             }
             
             Console.WriteLine(result.ToString());

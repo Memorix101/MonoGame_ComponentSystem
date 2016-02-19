@@ -1,6 +1,6 @@
 <level width="800" height="600">
   <LevelObjects tileset="Ground" exportMode="XMLCoords">
-    <tile x="0" y="0" tx="1" ty="2" />
+    <tile x="0" y="0" tx="0" ty="3" />
     <tile x="0" y="1" tx="0" ty="3" />
     <tile x="0" y="2" tx="0" ty="3" />
     <tile x="0" y="3" tx="0" ty="3" />
@@ -476,11 +476,27 @@
     <tile x="24" y="17" tx="2" ty="3" />
     <tile x="24" y="18" tx="1" ty="4" />
   </LevelObjects>
-  <Actor />
+  <Actor tileset="Player" exportMode="XMLCoords">
+    <tile x="13" y="10" tx="0" ty="0" />
+  </Actor>
   <Obstacle tileset="Blocks" exportMode="XMLCoords">
-    <tile x="2" y="3" tx="0" ty="1" />
-    <tile x="4" y="16" tx="0" ty="0" />
-    <tile x="19" y="4" tx="1" ty="0" />
-    <tile x="20" y="17" tx="1" ty="1" />
+    <tile x="1" y="16" tx="1" ty="1" />
+    <tile x="2" y="7" tx="1" ty="1" />
+    <tile x="2" y="11" tx="1" ty="0" />
+    <tile x="2" y="15" tx="0" ty="0" />
+    <tile x="3" y="2" tx="1" ty="0" />
+    <tile x="5" y="11" tx="1" ty="1" />
+    <tile x="9" y="9" tx="0" ty="0" />
+    <tile x="10" y="15" tx="1" ty="1" />
+    <tile x="11" y="17" tx="1" ty="0" />
+    <tile x="13" y="3" tx="1" ty="1" />
+    <tile x="14" y="3" tx="1" ty="1" />
+    <tile x="14" y="4" tx="1" ty="1" />
+    <tile x="18" y="10" tx="0" ty="0" />
+    <tile x="19" y="15" tx="0" ty="0" />
+    <tile x="19" y="16" tx="0" ty="0" />
+    <tile x="22" y="5" tx="1" ty="0" />
+    <tile x="22" y="11" tx="1" ty="1" />
+    <tile x="23" y="15" tx="1" ty="0" />
   </Obstacle>
 </level>

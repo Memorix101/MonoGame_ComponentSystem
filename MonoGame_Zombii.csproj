@@ -49,6 +49,7 @@
     <Compile Include="GameStuff\Player.cs" />
     <Compile Include="GameStuff\TestScene.cs" />
     <Compile Include="GameStuff\Tomato.cs" />
+    <Compile Include="GameStuff\Utilities\OgmoLoader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -61,6 +62,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Icon.ico" />

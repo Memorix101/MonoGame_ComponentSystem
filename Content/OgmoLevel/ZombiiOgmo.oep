@@ -38,7 +38,7 @@
       </ScrollFactor>
       <ExportMode>XMLCoords</ExportMode>
     </LayerDefinition>
-    <LayerDefinition xsi:type="EntityLayerDefinition">
+    <LayerDefinition xsi:type="TileLayerDefinition">
       <Name>Actor</Name>
       <Grid>
         <Width>32</Width>
@@ -48,6 +48,7 @@
         <X>1</X>
         <Y>1</Y>
       </ScrollFactor>
+      <ExportMode>XMLCoords</ExportMode>
     </LayerDefinition>
     <LayerDefinition xsi:type="TileLayerDefinition">
       <Name>Obstacle</Name>
@@ -81,22 +82,15 @@
       </TileSize>
       <TileSep>0</TileSep>
     </Tileset>
-  </Tilesets>
-  <EntityDefinitions>
-    <EntityDefinition Name="Player" Limit="-1" ResizableX="false" ResizableY="false" Rotatable="false" RotateIncrement="15">
-      <Size>
+    <Tileset>
+      <Name>Player</Name>
+      <FilePath>..\Sprites\MainGuySpriteSheet_0.png</FilePath>
+      <TileSize>
         <Width>32</Width>
-        <Height>32</Height>
-      </Size>
-      <Origin>
-        <X>0</X>
-        <Y>0</Y>
-      </Origin>
-      <ImageDefinition DrawMode="Image" ImagePath="..\Sprites\MainGuySpriteSheet_0.png" Tiled="true">
-        <RectColor A="255" R="255" G="0" B="0" />
-      </ImageDefinition>
-      <ValueDefinitions />
-      <NodesDefinition Enabled="false" Limit="-1" DrawMode="None" Ghost="false" />
-    </EntityDefinition>
-  </EntityDefinitions>
+        <Height>36</Height>
+      </TileSize>
+      <TileSep>0</TileSep>
+    </Tileset>
+  </Tilesets>
+  <EntityDefinitions />
 </project>

@@ -7,12 +7,15 @@ namespace MonoGame_Zombii
 {
     class TestScene : Scene
     {
-        GameObject tomato = new GameObject();
+        OgmoLoader og;
 
         public TestScene()
         {
-            tomato.AddComponent(new Player());
-            AddGameObject(tomato);
+            og = new OgmoLoader();
+            og.xmlLoader("Test");
+
+            // tomato.AddComponent(new Player());
+            // AddGameObject(tomato);
         }
     }
 }

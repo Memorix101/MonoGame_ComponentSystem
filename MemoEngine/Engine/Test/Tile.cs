@@ -6,7 +6,7 @@ using MemoEngine;
 
 namespace MemoEngine
 {
-    class Tile : GameObjectComponent
+    public class Tile : GameObjectComponent
     {
 
         float pos_X;
