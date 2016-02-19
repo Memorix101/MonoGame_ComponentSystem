@@ -66,6 +66,7 @@ namespace MonoGame_Zombii
 
             spriteBatch.Begin(SpriteSortMode.Deferred, null, SamplerState.PointClamp, null, null, null, null);
             SceneManager.Draw(spriteBatch);
+           // LineBatch.DrawLine(spriteBatch, new Vector2(0, 0), new Vector2(500, 500), Color.Red);
             spriteBatch.End();
 
             spriteBatch.Begin();
